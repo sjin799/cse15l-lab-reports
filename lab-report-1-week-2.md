@@ -1,4 +1,4 @@
-![Image] (/Users/jz/Documents/GitHub/cse15l-lab-reports/Test.png)
+![Image] (Test.png)
 
 [Lab Report 1](lab-report-1-week-2.html)
 
