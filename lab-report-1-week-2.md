@@ -1,1 +1,5 @@
-![Image](file:///Users/jz/Desktop/Screen%20Shot%202022-01-13%20at%2011.15.08%20AM.png)
+![Image] (/Users/jz/Documents/GitHub/cse15l-lab-reports/Test.png)
+
+[Lab Report 1](lab-report-1-week-2.html)
+
+[Lab Report 1](https://<sjin799>.github.io/<your-lab-reports-repo>/lab-report-1-week-2.html)
