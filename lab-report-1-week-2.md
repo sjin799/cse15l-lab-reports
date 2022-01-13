@@ -1,4 +1,4 @@
-![Image] (Test.png)
+![Image](Test.png)
 
 [Lab Report 1](lab-report-1-week-2.html)
 
