@@ -10,7 +10,9 @@ Then, look up your personal course account for CSE15L on this [link](https://sda
 
 Once you find your account, open the terminal in VSCode and type $ssh cs15lwi22<your_special_pin>@ieng6.ucsd.edu. 
 Type yes when you see the message that says the account can't be established, then give your password. You will see this message after login. 
+
 ![Image](Login.png)
+
 
 
 # 3.Trying Some Commands
