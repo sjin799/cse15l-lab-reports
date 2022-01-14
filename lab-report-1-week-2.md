@@ -28,6 +28,7 @@ For example you will see something like this:
 
 # 4.Moving Files with scp
 Make a local java file with the following codes: ![Image](Java.png)
+
 Then run the code with `java` and `javac`. 
 To move your local file to SSH, run the command `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`
 
