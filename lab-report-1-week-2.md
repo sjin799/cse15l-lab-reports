@@ -24,7 +24,7 @@ Try to type some command such as
 * `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 
 For example you will see something like this: 
-![Image](cmd.png)
+![Image](Command.png)
 
 # 4.Moving Files with scp
 Make a 
