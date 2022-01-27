@@ -80,5 +80,6 @@ There are some short-cut way to write the command
     `ssh cs15lwi22@ieng6.ucsd.edu "ls"`
 2. also write multiple command in one line and seperated by semicolon 
     `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
-    
+3. After you make a edit in local file and run it in you ssh account, write the multiple commands in online can save you more than 2 keystroke (i.e type javac one time and java one time). For imagine below, when we run java commands for whereAmI file, we only had 4 keystrokes to complete task (actually just 1 keystroke if we just count for running the file).
 ![Image](short.png)
+
