@@ -1,7 +1,7 @@
 # Streamline ssh Configuration
 
 The Goal for this task is to shorten the time to login our ssh account. 
-1. ![login](logIN&.png)
+1. ![logon](logIn&.png)
     The first step is to log into your ssh account to esatblish the config file to tell what username is to be used and what server will be login.
     Note: I already set the key code in; therefore, when I login, I used the code already that is already set. 
 
