@@ -14,3 +14,6 @@ The Goal for this task is to shorten the time to login our ssh account.
 4. ![login](sshieng6.png)
     Then we can login the ssh by just using command `shh ieng6` without all extra work!
 
+5. ![login](scp.png)
+    Then we can copy the local file (ex: makefile in this case) into our ssh account by using scp command 
+
