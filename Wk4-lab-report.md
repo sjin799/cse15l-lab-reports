@@ -7,10 +7,10 @@
     EX: [[invalid link](not a url](https://sjin799.github.io/markdown-parse/test1.html)
 
     Here is the failure output:
-    ![failure](fail1.png)
+    ![failure](pictures/fail1.png)
 
     This is the change we made:
-    ![change](change1.png)
+    ![change](pictures/change1.png)
 
     The bug here is that our code don't know how to handle a non close string for link. The systom we will see is that our code throws exception for out of bound that is caused by the bug. The failure-inducing input helps us confirm that there is a bug of not handling the not closed parentheses and we can use the syptoms to identiy where is the bug located. 
 
