@@ -56,5 +56,9 @@ public static ArrayList<String> getLinks(String markdown) {
 []
 (base) jz@Js-MacBook-Air markdown-parse % java  MarkdownParse 508.md
 []
+```
+I searched through the codes manually to run the files in order and compare the difference between outputs. 
+For both implementations, I believe my own impletement outputs are incorrect; From the preview of 507.md, we can conclude there is no valid link in this file. However, mine outputs whatever in the () if the format is correct not suspecting the URL behind the input link. For 508, although the preview shows we do have a valid link. Since we didn't exam the URL, we could not tell the link is valid or nor.
+Thinking about how to fix my code, I should implement the section after examing the format of link markdown. Such as writing a function that will read the file behind the provide URL links and see if the link is vaild. s
 
 
