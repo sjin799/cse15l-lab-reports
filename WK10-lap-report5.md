@@ -59,6 +59,33 @@ public static ArrayList<String> getLinks(String markdown) {
 ```
 I searched through the codes manually to run the files in order and compare the difference between outputs. 
 For both implementations, I believe my own impletement outputs are incorrect; From the preview of 507.md, we can conclude there is no valid link in this file. However, mine outputs whatever in the () if the format is correct not suspecting the URL behind the input link. For 508, although the preview shows we do have a valid link. Since we didn't exam the URL, we could not tell the link is valid or nor.
-Thinking about how to fix my code, I should implement the section after examing the format of link markdown. Such as writing a function that will read the file behind the provide URL links and see if the link is vaild. s
+Thinking about how to fix my code, I should implement the section after examing the format of link markdown. Such as writing a function that will read the file behind the provide URL links and see if the link is vaild. 
+
+
+- I should try to overload getlink method like what professor had done to his code. 
+```
+public static Map<String, List<String>> getLinks(File dirOrFile) throws IOException {
+        Map<String, List<String>> result = new HashMap<>();
+        if(dirOrFile.isDirectory()) {
+            for(File f: dirOrFile.listFiles()) {
+                result.putAll **(getLinks(f));**
+            }
+            return result;
+        }
+        else {
+            Path p = dirOrFile.toPath();
+            int lastDot = p.toString().lastIndexOf(".");
+            if(lastDot == -1 || !p.toString().substring(lastDot).equals(".md")) {
+                return result;
+            }
+            ArrayList<String> links = getLinks(Files.readString(p));
+            result.put(dirOrFile.getPath(), links);
+            return result;
+        }
+    }
+``` 
+- This section is the part that will take in the file and check if there is a valid URL link by reading the file behind the provided link. Below is where I should add this section:
+![addCode](pictures/AddCode.png)
+This changes should fix for both test case for my own implementation. 
 
 
